@@ -1,0 +1,5 @@
+statsite (0.5.1-1) unstable; urgency=low
+
+  * Initial release.
+
+ -- Bernd Zeimetz <bzed@debian.org>  Thu, 12 Sep 2013 23:55:13 +0200

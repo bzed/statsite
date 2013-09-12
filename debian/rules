@@ -1,0 +1,15 @@
+#!/usr/bin/make -f
+
+%:
+	dh $@
+
+dh_auto_configure:
+
+override_dh_auto_build:
+	scons statsite
+
+override_dh_auto_test:
+	scons test_runner
+
+override_dh_auto_install:
+

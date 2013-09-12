@@ -1,0 +1,3 @@
+version=3
+http://github.com/armon/statsite/releases /armon/statsite/archive/v([0-9.]+)\.tar\.gz
+
