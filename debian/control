@@ -2,7 +2,7 @@ Source: statsite
 Section: utils
 Priority: extra
 Maintainer: Bernd Zeimetz <bzed@debian.org>
-Build-Depends: scons, debhelper (>= 8.9.0)
+Build-Depends: scons, debhelper (>= 8.9.0), check
 Standards-Version: 3.9.3
 Homepage: http://armon.github.io/statsite
 Vcs-Browser: https://github.com/bzed/statsite
@@ -10,7 +10,7 @@ Vcs-Git: https://github.com/bzed/statsite.git
 
 Package: statsite
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}, check
+Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: metrics aggregation server
  It is heavily based on Etsy's StatsD and is wire compatible.
  Statsite is designed to be both highly performant,
